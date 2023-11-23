@@ -7,6 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "fix": "standard --fix"
   },
+  "lint-staged": {
+    "*.js": ["standard"]
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/trickaugusto/clean-node-api.git"
@@ -18,6 +21,7 @@
   },
   "homepage": "https://github.com/trickaugusto/clean-node-api#readme",
   "devDependencies": {
+    "lint-staged": "^15.1.0",
     "standard": "^17.1.0"
   }
 }
