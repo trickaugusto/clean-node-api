@@ -8,7 +8,14 @@
     "fix": "standard --fix"
   },
   "lint-staged": {
-    "*.js": ["standard"]
+    "*.js": [
+      "standard"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   },
   "repository": {
     "type": "git",
@@ -21,6 +28,7 @@
   },
   "homepage": "https://github.com/trickaugusto/clean-node-api#readme",
   "devDependencies": {
+    "husky": "^8.0.3",
     "lint-staged": "^15.1.0",
     "standard": "^17.1.0"
   }
