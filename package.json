@@ -8,11 +8,6 @@
     "fix": "standard --fix",
     "prepare": "husky install"
   },
-  "lint-staged": {
-    "*.js": [
-      "standard"
-    ]
-  },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
