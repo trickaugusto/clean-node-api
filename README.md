@@ -1,4 +1,4 @@
 # API em NODEJS com Clean Architecture e TDD
 
-time: #1 15:46
-pending: fix husky pre commit
+### Detalhes
+[Mango's](https://www.youtube.com/watch?v=vV1wQ6GFH0A&list=PL9aKtVrF05DyEwK5kdvzrYXFdpZfj1dsG) course study repository.
