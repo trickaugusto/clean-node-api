@@ -8,6 +8,9 @@
     "fix": "standard --fix",
     "prepare": "husky install"
   },
+  "standard": {
+    "env": ["jest"]
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/trickaugusto/clean-node-api.git"
