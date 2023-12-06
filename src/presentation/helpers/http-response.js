@@ -19,7 +19,7 @@ module.exports = class HttpResponse {
   static unauthorizedError () {
     return {
       statusCode: 401,
-      body: new UnauthorizedError()
+      body: new UnauthorizedError() 
     } 
   }
 
