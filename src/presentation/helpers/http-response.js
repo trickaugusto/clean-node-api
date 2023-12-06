@@ -13,7 +13,7 @@ module.exports = class HttpResponse {
     return {
       statusCode: 500,
       body: new ServerError() 
-    }
+    } 
   }
 
   static unauthorizedError () {
