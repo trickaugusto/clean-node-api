@@ -20,7 +20,7 @@ module.exports = class HttpResponse {
     return {
       statusCode: 401,
       body: new UnauthorizedError()
-    }
+    } 
   }
 
   static ok (data) {
