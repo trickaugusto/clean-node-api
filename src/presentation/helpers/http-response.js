@@ -6,7 +6,7 @@ module.exports = class HttpResponse {
     return {
       statusCode: 400,
       body: error
-    } 
+    }  
   }
 
   static serverError () {
