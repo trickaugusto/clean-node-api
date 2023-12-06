@@ -12,7 +12,7 @@ module.exports = class HttpResponse {
   static serverError () {
     return {
       statusCode: 500,
-      body: new ServerError()
+      body: new ServerError() 
     }
   }
 
