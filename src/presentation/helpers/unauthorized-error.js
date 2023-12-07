@@ -4,4 +4,3 @@ module.exports = class UnauthorizedError extends Error {
     this.name = 'UnauthorizedError'
   }
 }
- 
