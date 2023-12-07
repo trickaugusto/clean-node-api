@@ -25,14 +25,14 @@ module.exports = class LoginRouter {
       }
 
       const accessToken = await this.authUseCase.auth(email, password)
-  
+
       if (!accessToken) {
         return HttpResponse.unauthorizedError()
       }
 
       return HttpResponse.ok({ accessToken })
     } catch (error) {
-      console.error(error)
+      /* console.error(error) */
       return HttpResponse.serverError()
     }
   }
