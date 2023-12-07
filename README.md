@@ -7,4 +7,4 @@
 Padrões de nomenclaturas em teste: SUT (system under test), assim fica explícito quem está sendo testado
 
 #### Pendente
-[ ] - Corrigir husky pre-push
+[X] - Corrigir husky pre-push
